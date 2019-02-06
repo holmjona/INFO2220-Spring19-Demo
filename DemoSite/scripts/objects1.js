@@ -46,7 +46,9 @@ ob2.__proto__.value2 = "everyone";
 //ob1.value2 = "peoples";
 ob2.value3 += 4;
 
-alert(ob1.value1 + " | " + ob1.value2
-    + " | " + ob1.value3
-    + "\r\n" + ob2.value1 + " | " + ob2.value2
-    + " | " + ob2.value3);
+//alert(ob1.value1 + " | " + ob1.value2
+//    + " | " + ob1.value3
+//    + "\r\n" + ob2.value1 + " | " + ob2.value2
+//    + " | " + ob2.value3);
+
+//alert("funO from 2 is : " + typeof funO);
