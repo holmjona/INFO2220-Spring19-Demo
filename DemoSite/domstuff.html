@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #divOne, #divTwo, #divThree {
+            border: 2px solid #000;
+            width: 30%;
+            display: inline-block;
+            padding: .3em;
+            border-radius: .3em;
+        }
+
+        div h1 {
+            font-size: 1em;
+            margin: 0;
+            padding: 0;
+        }
+
+        #divOne {
+            background-color: #FEE;
+        }
+
+        #divTwo {
+            background-color: #EFE;
+        }
+
+        #divThree {
+            background-color: #EEF;
+        }
+
+        .group1 {
+            background-color: #C00;
+            color: #FFF;
+        }
+
+        .group2 {
+            background-color: #080;
+            color: #FFF;
+        }
+
+        .group3 {
+            background-color: #008;
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <div id="divOne">
+        <h1 >Red Things</h1>
+        <ul id="listOne">
+        </ul>
+    </div>
+    <div id="divTwo">
+        <h1 >Green Things</h1>
+        <ul id="listTwo"></ul>
+    </div>
+    <div id="divThree">
+        <h1 >Blue Things</h1>
+        <ul id="listThree"></ul>
+    </div>
+    <div id="divMove">
+        <dl>
+            <dt>Frog</dt>
+            <dd>
+                <span>is</span>
+                <button onclick="moveToGroup1(this);" class="group1">Red</button>
+                <button onclick="moveToGroup2(this);" class="group2">Green</button>
+                <button onclick="moveToGroup3(this);" class="group3">Blue</button>
+            </dd>
+            <dt>Wagon</dt>
+            <dd>
+                <span>is</span>
+                <button onclick="moveToGroup1(this);" class="group1">Red</button>
+                <button onclick="moveToGroup2(this);" class="group2">Green</button>
+                <button onclick="moveToGroup3(this);" class="group3">Blue</button>
+            </dd>
+            <dt>Sky</dt>
+            <dd>
+                <span>is</span>
+                <button onclick="moveToGroup1(this);" class="group1">Red</button>
+                <button onclick="moveToGroup2(this);" class="group2">Green</button>
+                <button onclick="moveToGroup3(this);" class="group3">Blue</button>
+            </dd>
+            <dt>Grass</dt>
+            <dd>
+                <span>is</span>
+                <button onclick="moveToGroup1(this);" class="group1">Red</button>
+                <button onclick="moveToGroup2(this);" class="group2">Green</button>
+                <button onclick="moveToGroup3(this);" class="group3">Blue</button>
+            </dd>
+            <dt>Sea</dt>
+            <dd>
+                <span>is</span>
+                <button onclick="moveToGroup1(this);" class="group1">Red</button>
+                <button onclick="moveToGroup2(this);" class="group2">Green</button>
+                <button onclick="moveToGroup3(this);" class="group3">Blue</button>
+            </dd>
+            <dt>A <strong>Stop</strong> Sign</dt>
+            <dd>
+                <span>is</span>
+                <button onclick="moveToGroup1(this);" class="group1">Red</button>
+                <button onclick="moveToGroup2(this);" class="group2">Green</button>
+                <button onclick="moveToGroup3(this);" class="group3">Blue</button>
+            </dd>
+            
+            <dt><img src="https://sc02.alicdn.com/kf/HTB1BateKVXXXXcaXVXXq6xXFXXX1/young-girls-sex-jeans-long-pants-kids.jpg_50x50.jpg" /></dt>
+            <dd>
+                <span>is</span>
+                <button onclick="moveToGroup1(this);" class="group1">Red</button>
+                <button onclick="moveToGroup2(this);" class="group2">Green</button>
+                <button onclick="moveToGroup3(this);" class="group3">Blue</button>
+            </dd>
+            <dt><form><input type="text" id="txtInput" name="put" /></form></dt>
+            <dd>
+                <span>is</span>
+                <button onclick="moveToGroup1(this);" class="group1">Red</button>
+                <button onclick="moveToGroup2(this);" class="group2">Green</button>
+                <button onclick="moveToGroup3(this);" class="group3">Blue</button>
+            </dd>
+        </dl>
+    </div>
+</body>
+</html>
