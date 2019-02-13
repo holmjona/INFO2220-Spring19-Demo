@@ -1,0 +1,40 @@
+﻿#divOne, #divTwo, #divThree {
+    border: 2px solid #000;
+    width: 30%;
+    display: inline-block;
+    padding: .3em;
+    border-radius: .3em;
+}
+
+div h1 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+#divOne {
+    background-color: #FEE;
+}
+
+#divTwo {
+    background-color: #EFE;
+}
+
+#divThree {
+    background-color: #EEF;
+}
+
+.group1 {
+    background-color: #C00;
+    color: #FFF;
+}
+
+.group2 {
+    background-color: #080;
+    color: #FFF;
+}
+
+.group3 {
+    background-color: #008;
+    color: #FFF;
+}
