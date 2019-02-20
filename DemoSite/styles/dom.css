@@ -38,3 +38,11 @@ div h1 {
     background-color: #008;
     color: #FFF;
 }
+
+li{border:solid 1px #A60}
+    .selected {
+        background-color: #7FA;
+    }
+.picked {
+    background-color: #AF3;
+}
