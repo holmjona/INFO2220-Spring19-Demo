@@ -57,3 +57,10 @@ li{border:solid 1px #A60}
 }
 
 /*ul{position:relative;}Z*/
+.redThing{ background-color: #FEE;}
+.blueThing {
+    background-color: #EEF;
+}
+.greenThing {
+    background-color: #EFE;
+}
