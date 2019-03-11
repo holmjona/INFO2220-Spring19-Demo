@@ -1,0 +1,20 @@
+[
+  {
+    "outputFileName": "scripts/intro.min.js",
+    "inputFiles": [
+      "scripts/intro.js"
+    ]
+  },
+  {
+    "outputFileName": "scripts/jquery-3.3.1.min.js",
+    "inputFiles": [
+      "scripts/jquery-3.3.1.js"
+    ]
+  },
+  {
+    "outputFileName": "styles/dom.min.css",
+    "inputFiles": [
+      "styles/dom.css"
+    ]
+  }
+]
