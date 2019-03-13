@@ -62,20 +62,41 @@ h3{
         display:none;
     }
 
-    .tabs h3:nth-child(3n+1) {
+    .tabs h3:nth-child(9n+1) {
         margin-left: 30px;
     }
 
-    .tabs h3:nth-child(3n+2) {
+    .tabs h3:nth-child(9n+2) {
         margin-left: 140px;
     }
 
-    .tabs h3:nth-child(3n+3) {
+    .tabs h3:nth-child(9n+3) {
         margin-left: 250px;
     }
 
+    .tabs h3:nth-child(9n+4) {
+        margin-left: 360px;
+    }
+    .tabs h3:nth-child(9n+5) {
+        margin-left: 470px;
+    }
+    .tabs h3:nth-child(9n+6) {
+        margin-left: 580px;
+    }
+    .tabs h3:nth-child(9n+7) {
+        margin-left: 690px;
+    }
+    .tabs h3:nth-child(9n+8) {
+        margin-left: 800px;
+    }
+    .tabs h3:nth-child(9n+9) {
+        margin-left: 910px;
+    }
+
+
 body p.selected {
     display: block;
+    background-color: #FAA;
 }
 
 h3.selected{
@@ -92,6 +113,6 @@ h3.selected{
 body .accordian h3:hover, body .tabs h3:hover {
     font-size: 1.2em;
     padding: .3em;
-    cursor:pointer;
+    cursor: pointer;
     
 }
