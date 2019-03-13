@@ -1,0 +1,87 @@
+﻿body {
+    background-color: #222;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1, h2{
+    color: #DDD;
+}
+
+.accordian *, tabs * {
+    margin: 0;
+}
+
+.accordian, .tabs {
+    border: 2px solid #AAA;
+    border-radius: 1em;
+}
+
+    .accordian p {
+        display: none;
+    }
+
+      
+
+.accordian {
+    border-radius: 0;
+}
+
+    .accordian h3 {
+        background-color: #AAD;
+        padding: .3em;
+    }
+
+    .accordian p {
+        background-color: #FFF;
+    }
+
+.tabs {
+    padding: 3em 1em .5em 1em;
+    position: relative;
+
+}
+
+    .tabs h3 {
+        position: absolute;
+        top: 0;
+        background-color: #6A6;
+        padding: .4em;
+        border-radius: .5em;
+        border: solid 2px #AFA;
+    }
+
+    .tabs p {
+        background-color: #DDD;
+        padding: 1em;
+        border-radius: 1em;
+        border: 2px solid #6A6;
+        display:none;
+    }
+
+    .tabs h3:nth-child(3n+1) {
+        margin-left: 2em;
+    }
+
+    .tabs h3:nth-child(3n+2) {
+        margin-left: 8em;
+    }
+
+    .tabs h3:nth-child(3n+3) {
+        margin-left: 14em;
+    }
+
+body p.selected {
+    display: block;
+}
+
+h3.selected{
+    color: #CCC;
+}
+.accordian h3.selected{
+    background-color: #448;
+    text-align: center;
+}
+.tabs h3.selected {
+    background-color: #242;
+    border-color: #020;
+}
