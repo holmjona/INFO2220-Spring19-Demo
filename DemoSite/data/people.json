@@ -1,0 +1,29 @@
+﻿{"people":
+[{
+  "firstName": "Bob",
+  "lastName": "Smith",
+  "age" :  23
+},
+{
+  "firstName": "Bill",
+  "lastName": "Smith",
+  "age" :  50
+},
+{
+  "firstName": "Mary",
+  "lastName": "Smith",
+  "age" :  35
+},
+{
+  "firstName": "Jonas",
+  "lastName": "Smith",
+  "age" :  17
+},
+{
+  "firstName": "Sandra",
+  "lastName": "Smith",
+  "age" :  46
+}
+],
+"addresses": ["123 street","6324 Elsewhere"]
+}
