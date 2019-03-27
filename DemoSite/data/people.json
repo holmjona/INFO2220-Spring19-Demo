@@ -25,5 +25,6 @@
   "age" :  46
 }
 ],
-"addresses": ["123 street","6324 Elsewhere"]
+  "addresses": [ "123 street", "6324 Elsewhere", "795 Nothr This St.", 
+                 "712 Evergreen Terrace", "123 N. 8th", "221 B. Baker St." ]
 }
