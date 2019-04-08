@@ -64,3 +64,10 @@ li{border:solid 1px #A60}
 .greenThing {
     background-color: #EFE;
 }
+
+.ui-draggable-dragging{
+    background-color: #FA0;
+    height: 3em !important;
+    width : 5em !important;
+    display: block !important;
+}
