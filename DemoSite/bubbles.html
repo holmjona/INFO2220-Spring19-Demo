@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html id="htmlOver">
+<head>
+    <meta charset="utf-8" />
+    <title>Bubbling</title>
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/bubbler.js"></script>
+    <style>
+        
+        html, html *{ border: 1px solid #0A0;}
+        body{ border-color: #00A; padding: .3em;}
+        section{ border-color: #A00;}
+        div{ border-color: #A0A;}
+        ul{ border-color: #A40;}
+        li{ border-color: #DD0;}
+        .selected { background-color: #AAA;}
+        table{cursor: crosshair; font-size: 1em;}
+        tr {padding: .3em; border-color: #000;}
+        a{
+            padding: 3ex;
+            margin: 3em;
+        }
+        tr:nth-child(2n+1) td{
+            padding: 1em;
+        }
+        tr:nth-child(2n+0) td {
+            padding: 18px;
+        }
+    </style>
+</head>
+<body id="bodyBubbler">
+    <section id="secOuter">
+        <div id="divOne">
+            <ul id="ulColors">
+                <li id="liRed">Red</li>
+                <li id="liGreen">Green</li>
+                <li id="liBlue">Blue</li>
+            </ul>
+        </div>
+        <div id="divTwo">
+            <ul id="ulFood">
+                <li id="liApple">Apple</li>
+                <li id="liGrape">Grape</li>
+                <li id="liDonut">Donut</li>
+                <li id="liCheese">Cheese</li>
+            </ul>
+        </div>
+    </section>
+    <section id="secTable">
+        <table id="tblOne">
+            <tr>
+                <td>Apple</td>
+                <td>Grape</td>
+                <td>Donut</td>
+                <td>Cheese</td>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>Grape</td>
+                <td>Donut</td>
+                <td>Cheese</td>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>Grape</td>
+                <td>Donut</td>
+                <td>Cheese</td>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>Grape</td>
+                <td>Donut</td>
+                <td>Cheese</td>
+            </tr>
+        </table>
+    </section>
+
+
+</body>
+</html>
